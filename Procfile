@@ -1,0 +1,1 @@
+web: target/universal/stage/bin/appsly-server-apptoday -Dhttp.port=$PORT -J-javaagent:target/universal/stage/lib/com.newrelic.agent.java.newrelic-agent-3.4.2.jar
