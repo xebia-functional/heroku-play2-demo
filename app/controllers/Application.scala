@@ -14,7 +14,7 @@ object Application extends Controller with MongoController {
 
   def collection: JSONCollection = db.collection[JSONCollection]("persons")
 
-  def index = Cached("index", 10) {
+  def index = Cached("index") {
     Action.async {
 
       val futurePeople = collection
