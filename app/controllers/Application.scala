@@ -14,7 +14,7 @@ object Application extends Controller with MongoController {
 
   def collection: JSONCollection = db.collection[JSONCollection]("persons")
 
-  def index = Cached("index") {
+  def index = //Cached("index") {
     Action.async {
 
       val futurePeople = collection
@@ -28,7 +28,7 @@ object Application extends Controller with MongoController {
       } yield Ok(Json.obj("people" -> people))
 
     }
-  }
+  //}
 
   def loaderio() = Action {
     Ok("loaderio-92f1a8a29de94e0b0ba549a0860ec0de")
