@@ -26,4 +26,5 @@ object Application extends Controller with MongoController {
 
   }
 
+  def loaderio() = Action { Ok ("loaderio-92f1a8a29de94e0b0ba549a0860ec0de")}
 }
