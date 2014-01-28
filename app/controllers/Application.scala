@@ -7,6 +7,7 @@ import play.api.libs.json._
 import play.modules.reactivemongo.MongoController
 import play.modules.reactivemongo.json.collection.JSONCollection
 import play.api.cache.Cached
+import play.api.Play.current
 
 
 object Application extends Controller with MongoController {
