@@ -2,7 +2,7 @@ Heroku Intro Demo App
 
 1. Clone locally
 
-2. Make sure you have a local Mongo db named "herokudemo"
+2. Make sure you have a local Mongo db named "herokudemo" and the latest Play2 from http://downloads.typesafe.com/play/2.2.1/play-2.2.1.zip
 
 3. run
 
