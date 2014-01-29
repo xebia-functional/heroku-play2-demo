@@ -8,7 +8,7 @@ Heroku Intro Demo App
 
 ```bash
 cd heroku-play2-demo
-play run'
+play run
 ```
 
 4. Open "http://localhost:9000"
